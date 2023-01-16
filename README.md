@@ -16,21 +16,19 @@ Here are a few examples.
 
 ## Goal
 
-The goal of this project was to use sentiment analysis on data collected from Twitter to ascertain the feelings of FIFA World Cup 2022 viewers. In order to understand the sentiments of twitter users, this project used a variety of Python packages. The following sections explain the project's general procedure.
+The goal of this project was to use python for analysis on food production and supply of African countries data collected from FAO to ascertain its status from the year 2004-2013. In order to understand the patterns in data, this project used a variety of Python packages. The following sections explain the project's general procedure.
 
-## Steps of text Processing
+## Steps of data Processing
 
-The individual tweets have to be cleaned up in order to achieve the main objective. The captured tweets are first processed in Python using the "processed_tweet" method created in Python. Punctuation, links, emoticons, and stop words were all removed from the tweets using this user-defined function in a single pass. In addition, I applied an NLP principle called "Tokenization." It is a technique for removing superfluous parts of a sentence by breaking it up into smaller chunks called "tokens." "Lemmatization" is a further method worth mentioning. Words are being "reverted" to their "base" form through this process. The illustration below is straightforward.
+The individual data have to be checked up for cleaning in order to achieve the main objective. Then the data are preprocessed for further analysis and visualizations.
 
-## Word-Cloud 
+## Results on Power BI...
 
-I used the NLTK library's Parts of Speech tagging module to identify the player that had the most mentions during the Qatar 2022 FIFA World Cup. One may create a Word Cloud based on word frequency and overlay these words over any image by using the WordCloud library. The most popular terms stated in tweets are presented in strong and large characters on the world cup graphic, while the least popular words are shown in smaller letters.
-
-![Alt text](static/wordcloud.png?raw=true "Title")
+![Alt text](output/plate.jpg?raw=true "Title")
 
 ## License
 
-[![MIT License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![MIT License](https://img.shields.io/badge/License-MIT%20v3-yellow.svg)](https://opensource.org/licenses/)
 
 
 ## 🔗 Links
